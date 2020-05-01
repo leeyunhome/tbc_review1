@@ -10,19 +10,14 @@ int main()
     {
         printf("Current count is %d. Continue? (y/n)\n", count);
 
-        int c = getchar();
-
-        if (c == 'n' || c == 'N')
+        
+        if (getchar() == 'n')
             break;
-        else if (c == 'y' || c == 'Y')
-            count++;
-        else
-            printf("Please input y or n\n");
 
-        while (getchar() != '\n')
-            continue;
-        
-        
+        //while (getchar() != '\n')
+        //    continue;
+
+        count++;
     }
 
     return 0;
