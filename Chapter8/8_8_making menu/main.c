@@ -65,42 +65,45 @@ char get_choice()
         printf("a. avengers\tb.beep\n");
         printf("c. count\tq.quit\n");
         
-        c = getchar();
+        //c = getchar();
+        c = get_first_char();
         //printf("%d\n", c);
-        if (c != 97 && c != 98 && c != 99 && c != 113)
+        if (c != 'a' && c != 'b' && c != 'c' && c != 'q')
         {
             puts("Please try again");
-            while (getchar() != '\n')
-                continue;
+            //while (getchar() != '\n')
+            //    continue;
         }
-        else 
-        {
-            while (getchar() != '\n')
-                continue;
-            break;
-        }
+        //else 
+        //{
+        //    //while (getchar() != '\n')
+        //    //    continue;
+        //    break;
+        //}
+        break;
     }
     
     return c;
 }
-
-void count()
+char get_first_char(void)
+{
+    char c;
+    c = getchar();
+    while (getchar() != '\n')
+        continue;
+    return c;
+}
+int get_integer(void)
 {
     int a;
     int flag;
-    int count;
-    printf("Enter an integer to count\n");
     while (1)
     {
         if ((flag = scanf("%d", &a)) == 1)
         {
-            for (count = 0; count < a; ++count)
-            {
-                printf("%d\n", count + 1);
-            }
             while (getchar() != '\n')
                 continue;
-            break;
+            return a;
         }
         else
         {
@@ -108,5 +111,17 @@ void count()
             while (getchar() != '\n')
                 continue;
         }
+    }
+}
+
+void count()
+{
+    int a;
+    int count;
+    printf("Enter an integer to count\n");
+    a = get_integer();
+    for (count = 0; count < a; ++count)
+    {
+        printf("%d\n", count + 1);
     }
 }

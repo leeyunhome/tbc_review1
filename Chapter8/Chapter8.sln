@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8_8_making menu", "8_8_maki
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8_5_test", "8_5_test\8_5_test.vcxproj", "{E759ED7B-EF1C-4DAB-A04C-A0D36A4AF3DF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8_9_reading text file", "8_9_reading text file\8_9_reading text file.vcxproj", "{1D0B1F78-4161-4402-8758-CCB7014EAAFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{E759ED7B-EF1C-4DAB-A04C-A0D36A4AF3DF}.Release|x64.Build.0 = Release|x64
 		{E759ED7B-EF1C-4DAB-A04C-A0D36A4AF3DF}.Release|x86.ActiveCfg = Release|Win32
 		{E759ED7B-EF1C-4DAB-A04C-A0D36A4AF3DF}.Release|x86.Build.0 = Release|Win32
+		{1D0B1F78-4161-4402-8758-CCB7014EAAFE}.Debug|x64.ActiveCfg = Debug|x64
+		{1D0B1F78-4161-4402-8758-CCB7014EAAFE}.Debug|x64.Build.0 = Debug|x64
+		{1D0B1F78-4161-4402-8758-CCB7014EAAFE}.Debug|x86.ActiveCfg = Debug|Win32
+		{1D0B1F78-4161-4402-8758-CCB7014EAAFE}.Debug|x86.Build.0 = Debug|Win32
+		{1D0B1F78-4161-4402-8758-CCB7014EAAFE}.Release|x64.ActiveCfg = Release|x64
+		{1D0B1F78-4161-4402-8758-CCB7014EAAFE}.Release|x64.Build.0 = Release|x64
+		{1D0B1F78-4161-4402-8758-CCB7014EAAFE}.Release|x86.ActiveCfg = Release|Win32
+		{1D0B1F78-4161-4402-8758-CCB7014EAAFE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
