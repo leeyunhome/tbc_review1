@@ -1,12 +1,16 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <stdlib.h>
 
-void printMenu();
+//void printMenu();
+char get_choice();
+char get_first_char(void);
+int get_integer(void);
 void count();
 int main()
 {
-    char c;
+    int user_choice;
     /*while (1)
     {
         char c;
@@ -23,19 +27,23 @@ int main()
 
     }*/
 
-    printMenu();
-    while ((c = getchar()) != 'q')
+    while ((user_choice = get_choice()) != 'q')
     {
-        switch (c)
+        switch (user_choice)
         {
         case 'a':
             printf("Avengers assemble!\n");
             break;
         case 'b':
-            printf("\a");
+            //printf("\a");
+            putchar('\a');  // Beep
             break;
         case 'c':
             count();
+            break;
+        default:
+            printf("Error with %d.\n", user_choice);
+            exit(1);
             break;
         }
     }
@@ -48,14 +56,57 @@ void printMenu()
     printf("a. avengers\tb.beep\n");
     printf("c. count\tq.quit\n");
 }
+char get_choice()
+{
+    int c;
+    while (1)
+    {
+        printf("Enter the letter of your choice:\n");
+        printf("a. avengers\tb.beep\n");
+        printf("c. count\tq.quit\n");
+        
+        c = getchar();
+        //printf("%d\n", c);
+        if (c != 97 && c != 98 && c != 99 && c != 113)
+        {
+            puts("Please try again");
+            while (getchar() != '\n')
+                continue;
+        }
+        else 
+        {
+            while (getchar() != '\n')
+                continue;
+            break;
+        }
+    }
+    
+    return c;
+}
+
 void count()
 {
     int a;
+    int flag;
     int count;
     printf("Enter an integer to count\n");
-    scanf("%d", &a);
-    for (count = 0; count < a; ++count)
+    while (1)
     {
-        printf("%d\n", count + 1);
+        if ((flag = scanf("%d", &a)) == 1)
+        {
+            for (count = 0; count < a; ++count)
+            {
+                printf("%d\n", count + 1);
+            }
+            while (getchar() != '\n')
+                continue;
+            break;
+        }
+        else
+        {
+            printf("Wrong input. please try again\n");
+            while (getchar() != '\n')
+                continue;
+        }
     }
 }
