@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.5 local variable and stac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.6 recursion", "9.6 recursion\9.6 recursion.vcxproj", "{A57663A2-D0C3-4CC2-8CF6-901EF8D91F78}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_7 recursion and stack", "9_7 recursion and stack\9_7 recursion and stack.vcxproj", "{A14B73B0-9772-4CCA-87D0-70B8B1A0C4A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{A57663A2-D0C3-4CC2-8CF6-901EF8D91F78}.Release|x64.Build.0 = Release|x64
 		{A57663A2-D0C3-4CC2-8CF6-901EF8D91F78}.Release|x86.ActiveCfg = Release|Win32
 		{A57663A2-D0C3-4CC2-8CF6-901EF8D91F78}.Release|x86.Build.0 = Release|Win32
+		{A14B73B0-9772-4CCA-87D0-70B8B1A0C4A4}.Debug|x64.ActiveCfg = Debug|x64
+		{A14B73B0-9772-4CCA-87D0-70B8B1A0C4A4}.Debug|x64.Build.0 = Debug|x64
+		{A14B73B0-9772-4CCA-87D0-70B8B1A0C4A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{A14B73B0-9772-4CCA-87D0-70B8B1A0C4A4}.Debug|x86.Build.0 = Debug|Win32
+		{A14B73B0-9772-4CCA-87D0-70B8B1A0C4A4}.Release|x64.ActiveCfg = Release|x64
+		{A14B73B0-9772-4CCA-87D0-70B8B1A0C4A4}.Release|x64.Build.0 = Release|x64
+		{A14B73B0-9772-4CCA-87D0-70B8B1A0C4A4}.Release|x86.ActiveCfg = Release|Win32
+		{A14B73B0-9772-4CCA-87D0-70B8B1A0C4A4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
