@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.14 2차원 배열과 포
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.11 배열 매개변수와 const", "10.11 배열 매개변수와 const\10.11 배열 매개변수와 const.vcxproj", "{07FD833F-E663-4FFE-BFB2-0E6C43A974F3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.13 포인터의 배열과 2차원 배열", "10.13 포인터의 배열과 2차원 배열\10.13 포인터의 배열과 2차원 배열.vcxproj", "{D5B61CB1-2CD5-4C84-8DA0-B19F5344B59E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{07FD833F-E663-4FFE-BFB2-0E6C43A974F3}.Release|x64.Build.0 = Release|x64
 		{07FD833F-E663-4FFE-BFB2-0E6C43A974F3}.Release|x86.ActiveCfg = Release|Win32
 		{07FD833F-E663-4FFE-BFB2-0E6C43A974F3}.Release|x86.Build.0 = Release|Win32
+		{D5B61CB1-2CD5-4C84-8DA0-B19F5344B59E}.Debug|x64.ActiveCfg = Debug|x64
+		{D5B61CB1-2CD5-4C84-8DA0-B19F5344B59E}.Debug|x64.Build.0 = Debug|x64
+		{D5B61CB1-2CD5-4C84-8DA0-B19F5344B59E}.Debug|x86.ActiveCfg = Debug|Win32
+		{D5B61CB1-2CD5-4C84-8DA0-B19F5344B59E}.Debug|x86.Build.0 = Debug|Win32
+		{D5B61CB1-2CD5-4C84-8DA0-B19F5344B59E}.Release|x64.ActiveCfg = Release|x64
+		{D5B61CB1-2CD5-4C84-8DA0-B19F5344B59E}.Release|x64.Build.0 = Release|x64
+		{D5B61CB1-2CD5-4C84-8DA0-B19F5344B59E}.Release|x86.ActiveCfg = Release|Win32
+		{D5B61CB1-2CD5-4C84-8DA0-B19F5344B59E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
