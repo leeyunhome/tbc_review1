@@ -15,6 +15,7 @@ void my_func(int n)
 {
     printf("Level %d, address of variable n = %p\n", n, &n);
 
+    //my_func(n + 1);
     if (n < 4)
         my_func(n + 1);
 
