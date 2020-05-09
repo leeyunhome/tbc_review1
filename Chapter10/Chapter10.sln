@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.16 다차원 배열을 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.17 변수로 길이를 정할 수 있는 배열", "10.17 변수로 길이를 정할 수 있는 배열\10.17 변수로 길이를 정할 수 있는 배열.vcxproj", "{810CAAC5-69CD-4892-B794-02028359D845}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.18 복합 리터럴과 배열 ​", "10.18 복합 리터럴과 배열 ​\10.18 복합 리터럴과 배열 ​.vcxproj", "{1AF05FC2-39E0-482B-A791-23B36BE0B7D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{810CAAC5-69CD-4892-B794-02028359D845}.Release|x64.Build.0 = Release|x64
 		{810CAAC5-69CD-4892-B794-02028359D845}.Release|x86.ActiveCfg = Release|Win32
 		{810CAAC5-69CD-4892-B794-02028359D845}.Release|x86.Build.0 = Release|Win32
+		{1AF05FC2-39E0-482B-A791-23B36BE0B7D9}.Debug|x64.ActiveCfg = Debug|x64
+		{1AF05FC2-39E0-482B-A791-23B36BE0B7D9}.Debug|x64.Build.0 = Debug|x64
+		{1AF05FC2-39E0-482B-A791-23B36BE0B7D9}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AF05FC2-39E0-482B-A791-23B36BE0B7D9}.Debug|x86.Build.0 = Debug|Win32
+		{1AF05FC2-39E0-482B-A791-23B36BE0B7D9}.Release|x64.ActiveCfg = Release|x64
+		{1AF05FC2-39E0-482B-A791-23B36BE0B7D9}.Release|x64.Build.0 = Release|x64
+		{1AF05FC2-39E0-482B-A791-23B36BE0B7D9}.Release|x86.ActiveCfg = Release|Win32
+		{1AF05FC2-39E0-482B-A791-23B36BE0B7D9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
