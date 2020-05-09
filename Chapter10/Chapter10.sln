@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.13 포인터의 배열�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.16 다차원 배열을 함수에게 전달해주는 방법", "10.16 다차원 배열을 함수에게 전달해주는 방법\10.16 다차원 배열을 함수에게 전달해주는 방법.vcxproj", "{274789FD-E4B7-4FF5-9BA7-DFF615696344}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.17 변수로 길이를 정할 수 있는 배열", "10.17 변수로 길이를 정할 수 있는 배열\10.17 변수로 길이를 정할 수 있는 배열.vcxproj", "{810CAAC5-69CD-4892-B794-02028359D845}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{274789FD-E4B7-4FF5-9BA7-DFF615696344}.Release|x64.Build.0 = Release|x64
 		{274789FD-E4B7-4FF5-9BA7-DFF615696344}.Release|x86.ActiveCfg = Release|Win32
 		{274789FD-E4B7-4FF5-9BA7-DFF615696344}.Release|x86.Build.0 = Release|Win32
+		{810CAAC5-69CD-4892-B794-02028359D845}.Debug|x64.ActiveCfg = Debug|x64
+		{810CAAC5-69CD-4892-B794-02028359D845}.Debug|x64.Build.0 = Debug|x64
+		{810CAAC5-69CD-4892-B794-02028359D845}.Debug|x86.ActiveCfg = Debug|Win32
+		{810CAAC5-69CD-4892-B794-02028359D845}.Debug|x86.Build.0 = Debug|Win32
+		{810CAAC5-69CD-4892-B794-02028359D845}.Release|x64.ActiveCfg = Release|x64
+		{810CAAC5-69CD-4892-B794-02028359D845}.Release|x64.Build.0 = Release|x64
+		{810CAAC5-69CD-4892-B794-02028359D845}.Release|x86.ActiveCfg = Release|Win32
+		{810CAAC5-69CD-4892-B794-02028359D845}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
