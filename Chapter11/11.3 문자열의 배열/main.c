@@ -19,7 +19,7 @@ int main()
         "Eating",
         "Watching Netflix",
         "Walking around till dark",
-        "Deleting spam emails"
+        "Deleting spam emails" 
     };
 
     const char* temp1 = "Dancing in the rain";
