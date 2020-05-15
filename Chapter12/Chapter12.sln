@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.5 자동변수", "Chapte
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.6 레지스터 변수", "12.6 레지스터 변수\12.6 레지스터 변수.vcxproj", "{49A43A62-033F-4E37-953B-C848ED9AB617}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.7 블록 영역의 정적 변수", "12.7 블록 영역의 정적 변수\12.7 블록 영역의 정적 변수.vcxproj", "{CCD8B09E-3EAC-4501-A649-A5B2CE486CDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{49A43A62-033F-4E37-953B-C848ED9AB617}.Release|x64.Build.0 = Release|x64
 		{49A43A62-033F-4E37-953B-C848ED9AB617}.Release|x86.ActiveCfg = Release|Win32
 		{49A43A62-033F-4E37-953B-C848ED9AB617}.Release|x86.Build.0 = Release|Win32
+		{CCD8B09E-3EAC-4501-A649-A5B2CE486CDF}.Debug|x64.ActiveCfg = Debug|x64
+		{CCD8B09E-3EAC-4501-A649-A5B2CE486CDF}.Debug|x64.Build.0 = Debug|x64
+		{CCD8B09E-3EAC-4501-A649-A5B2CE486CDF}.Debug|x86.ActiveCfg = Debug|Win32
+		{CCD8B09E-3EAC-4501-A649-A5B2CE486CDF}.Debug|x86.Build.0 = Debug|Win32
+		{CCD8B09E-3EAC-4501-A649-A5B2CE486CDF}.Release|x64.ActiveCfg = Release|x64
+		{CCD8B09E-3EAC-4501-A649-A5B2CE486CDF}.Release|x64.Build.0 = Release|x64
+		{CCD8B09E-3EAC-4501-A649-A5B2CE486CDF}.Release|x86.ActiveCfg = Release|Win32
+		{CCD8B09E-3EAC-4501-A649-A5B2CE486CDF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
