@@ -19,10 +19,10 @@ int* static_count()
     return &ct;
 }
 
-//int func(static int i)  // Warning (Error in GCC)
-//{
-//
-//}
+int func(static int i)  // Warning (Error in GCC)
+{
+
+}
 
 void counter_caller()
 {
