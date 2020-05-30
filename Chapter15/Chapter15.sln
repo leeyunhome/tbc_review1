@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.3 를 이용해서 십�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.4 비트단위 논리 연산자", "15.4 비트단위 논리 연산자\15.4 비트단위 논리 연산자.vcxproj", "{6EE200D3-BE20-4E69-8F59-AAF1ED17D9F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.5 2의 보수 표현법 확인", "15.5 2의 보수 표현법 확인\15.5 2의 보수 표현법 확인.vcxproj", "{F2AB5D02-5EE8-4F6E-959C-8BACC03DC941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{6EE200D3-BE20-4E69-8F59-AAF1ED17D9F1}.Release|x64.Build.0 = Release|x64
 		{6EE200D3-BE20-4E69-8F59-AAF1ED17D9F1}.Release|x86.ActiveCfg = Release|Win32
 		{6EE200D3-BE20-4E69-8F59-AAF1ED17D9F1}.Release|x86.Build.0 = Release|Win32
+		{F2AB5D02-5EE8-4F6E-959C-8BACC03DC941}.Debug|x64.ActiveCfg = Debug|x64
+		{F2AB5D02-5EE8-4F6E-959C-8BACC03DC941}.Debug|x64.Build.0 = Debug|x64
+		{F2AB5D02-5EE8-4F6E-959C-8BACC03DC941}.Debug|x86.ActiveCfg = Debug|Win32
+		{F2AB5D02-5EE8-4F6E-959C-8BACC03DC941}.Debug|x86.Build.0 = Debug|Win32
+		{F2AB5D02-5EE8-4F6E-959C-8BACC03DC941}.Release|x64.ActiveCfg = Release|x64
+		{F2AB5D02-5EE8-4F6E-959C-8BACC03DC941}.Release|x64.Build.0 = Release|x64
+		{F2AB5D02-5EE8-4F6E-959C-8BACC03DC941}.Release|x86.ActiveCfg = Release|Win32
+		{F2AB5D02-5EE8-4F6E-959C-8BACC03DC941}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
