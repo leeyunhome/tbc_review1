@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter14", "Chapter14\Chapter14.vcxproj", "{75A36EAA-0D80-473F-8136-923736ED9617}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.16 공용체와 구조체를 함께 사용하기", "Chapter14\Chapter14.vcxproj", "{75A36EAA-0D80-473F-8136-923736ED9617}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.22 함수 포인터의 사용 방법", "14.22 함수 포인터의 사용 방법\14.22 함수 포인터의 사용 방법.vcxproj", "{5344382A-8DA5-4EDE-AFF5-3D1356AFBCA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.23 자료형에게 별명을 붙여주는 typedef", "14.23 자료형에게 별명을 붙여주는 typedef\14.23 자료형에게 별명을 붙여주는 typedef.vcxproj", "{83439706-5339-4998-AF2A-BC5FCB3287E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.24 복잡한 선언을 해석하는 요령", "14.24 복잡한 선언을 해석하는 요령\14.24 복잡한 선언을 해석하는 요령.vcxproj", "{C664F86A-A7D2-414A-BCF4-387028499B09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,30 @@ Global
 		{75A36EAA-0D80-473F-8136-923736ED9617}.Release|x64.Build.0 = Release|x64
 		{75A36EAA-0D80-473F-8136-923736ED9617}.Release|x86.ActiveCfg = Release|Win32
 		{75A36EAA-0D80-473F-8136-923736ED9617}.Release|x86.Build.0 = Release|Win32
+		{5344382A-8DA5-4EDE-AFF5-3D1356AFBCA0}.Debug|x64.ActiveCfg = Debug|x64
+		{5344382A-8DA5-4EDE-AFF5-3D1356AFBCA0}.Debug|x64.Build.0 = Debug|x64
+		{5344382A-8DA5-4EDE-AFF5-3D1356AFBCA0}.Debug|x86.ActiveCfg = Debug|Win32
+		{5344382A-8DA5-4EDE-AFF5-3D1356AFBCA0}.Debug|x86.Build.0 = Debug|Win32
+		{5344382A-8DA5-4EDE-AFF5-3D1356AFBCA0}.Release|x64.ActiveCfg = Release|x64
+		{5344382A-8DA5-4EDE-AFF5-3D1356AFBCA0}.Release|x64.Build.0 = Release|x64
+		{5344382A-8DA5-4EDE-AFF5-3D1356AFBCA0}.Release|x86.ActiveCfg = Release|Win32
+		{5344382A-8DA5-4EDE-AFF5-3D1356AFBCA0}.Release|x86.Build.0 = Release|Win32
+		{83439706-5339-4998-AF2A-BC5FCB3287E7}.Debug|x64.ActiveCfg = Debug|x64
+		{83439706-5339-4998-AF2A-BC5FCB3287E7}.Debug|x64.Build.0 = Debug|x64
+		{83439706-5339-4998-AF2A-BC5FCB3287E7}.Debug|x86.ActiveCfg = Debug|Win32
+		{83439706-5339-4998-AF2A-BC5FCB3287E7}.Debug|x86.Build.0 = Debug|Win32
+		{83439706-5339-4998-AF2A-BC5FCB3287E7}.Release|x64.ActiveCfg = Release|x64
+		{83439706-5339-4998-AF2A-BC5FCB3287E7}.Release|x64.Build.0 = Release|x64
+		{83439706-5339-4998-AF2A-BC5FCB3287E7}.Release|x86.ActiveCfg = Release|Win32
+		{83439706-5339-4998-AF2A-BC5FCB3287E7}.Release|x86.Build.0 = Release|Win32
+		{C664F86A-A7D2-414A-BCF4-387028499B09}.Debug|x64.ActiveCfg = Debug|x64
+		{C664F86A-A7D2-414A-BCF4-387028499B09}.Debug|x64.Build.0 = Debug|x64
+		{C664F86A-A7D2-414A-BCF4-387028499B09}.Debug|x86.ActiveCfg = Debug|Win32
+		{C664F86A-A7D2-414A-BCF4-387028499B09}.Debug|x86.Build.0 = Debug|Win32
+		{C664F86A-A7D2-414A-BCF4-387028499B09}.Release|x64.ActiveCfg = Release|x64
+		{C664F86A-A7D2-414A-BCF4-387028499B09}.Release|x64.Build.0 = Release|x64
+		{C664F86A-A7D2-414A-BCF4-387028499B09}.Release|x86.ActiveCfg = Release|Win32
+		{C664F86A-A7D2-414A-BCF4-387028499B09}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
