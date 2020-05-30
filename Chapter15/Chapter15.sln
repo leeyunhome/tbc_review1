@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.7 비트단위 연산자
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.8 RGBA 색상 비트 마스크", "15.8 RGBA 색상 비트 마스크\15.8 RGBA 색상 비트 마스크.vcxproj", "{08E2D6EA-E999-4EAF-A93D-1F2B0C02B668}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.10 비트필드의 사용방법", "15.10 비트필드의 사용방법\15.10 비트필드의 사용방법.vcxproj", "{EA4D21E4-A195-42DC-98D3-DFEDD9D0B0AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{08E2D6EA-E999-4EAF-A93D-1F2B0C02B668}.Release|x64.Build.0 = Release|x64
 		{08E2D6EA-E999-4EAF-A93D-1F2B0C02B668}.Release|x86.ActiveCfg = Release|Win32
 		{08E2D6EA-E999-4EAF-A93D-1F2B0C02B668}.Release|x86.Build.0 = Release|Win32
+		{EA4D21E4-A195-42DC-98D3-DFEDD9D0B0AD}.Debug|x64.ActiveCfg = Debug|x64
+		{EA4D21E4-A195-42DC-98D3-DFEDD9D0B0AD}.Debug|x64.Build.0 = Debug|x64
+		{EA4D21E4-A195-42DC-98D3-DFEDD9D0B0AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{EA4D21E4-A195-42DC-98D3-DFEDD9D0B0AD}.Debug|x86.Build.0 = Debug|Win32
+		{EA4D21E4-A195-42DC-98D3-DFEDD9D0B0AD}.Release|x64.ActiveCfg = Release|x64
+		{EA4D21E4-A195-42DC-98D3-DFEDD9D0B0AD}.Release|x64.Build.0 = Release|x64
+		{EA4D21E4-A195-42DC-98D3-DFEDD9D0B0AD}.Release|x86.ActiveCfg = Release|Win32
+		{EA4D21E4-A195-42DC-98D3-DFEDD9D0B0AD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
