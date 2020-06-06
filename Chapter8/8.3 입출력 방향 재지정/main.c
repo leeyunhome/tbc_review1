@@ -4,7 +4,7 @@
 
 int main()
 {
-    //printf("programming.\n");
+    //printf("programming.");
 
     char str[100];
     scanf("%s", str);
