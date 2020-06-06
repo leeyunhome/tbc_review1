@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.4 구조체의 배열 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.4 구조체의 배열 연습문제(2)", "14.4 구조체의 배열 연습문제(2)\14.4 구조체의 배열 연습문제(2).vcxproj", "{EA249119-4082-487E-A506-692E09E0EBCB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.5 구조체를 다른 구조체의 멤버로 사용하기", "14.5 구조체를 다른 구조체의 멤버로 사용하기\14.5 구조체를 다른 구조체의 멤버로 사용하기.vcxproj", "{868F4316-79E2-4507-B301-B31C5A200AFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{EA249119-4082-487E-A506-692E09E0EBCB}.Release|x64.Build.0 = Release|x64
 		{EA249119-4082-487E-A506-692E09E0EBCB}.Release|x86.ActiveCfg = Release|Win32
 		{EA249119-4082-487E-A506-692E09E0EBCB}.Release|x86.Build.0 = Release|Win32
+		{868F4316-79E2-4507-B301-B31C5A200AFE}.Debug|x64.ActiveCfg = Debug|x64
+		{868F4316-79E2-4507-B301-B31C5A200AFE}.Debug|x64.Build.0 = Debug|x64
+		{868F4316-79E2-4507-B301-B31C5A200AFE}.Debug|x86.ActiveCfg = Debug|Win32
+		{868F4316-79E2-4507-B301-B31C5A200AFE}.Debug|x86.Build.0 = Debug|Win32
+		{868F4316-79E2-4507-B301-B31C5A200AFE}.Release|x64.ActiveCfg = Release|x64
+		{868F4316-79E2-4507-B301-B31C5A200AFE}.Release|x64.Build.0 = Release|x64
+		{868F4316-79E2-4507-B301-B31C5A200AFE}.Release|x86.ActiveCfg = Release|Win32
+		{868F4316-79E2-4507-B301-B31C5A200AFE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
