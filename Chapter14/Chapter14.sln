@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.8 구조체와 함수 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.9 구조체와 할당 메모리", "14.9 구조체와 할당 메모리\14.9 구조체와 할당 메모리.vcxproj", "{287F8092-9079-43E5-A903-8E78F7A676AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.10 복합 리터럴", "14.10 복합 리터럴\14.10 복합 리터럴.vcxproj", "{022B92B3-3355-4E3A-8311-96D56A27E107}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{287F8092-9079-43E5-A903-8E78F7A676AC}.Release|x64.Build.0 = Release|x64
 		{287F8092-9079-43E5-A903-8E78F7A676AC}.Release|x86.ActiveCfg = Release|Win32
 		{287F8092-9079-43E5-A903-8E78F7A676AC}.Release|x86.Build.0 = Release|Win32
+		{022B92B3-3355-4E3A-8311-96D56A27E107}.Debug|x64.ActiveCfg = Debug|x64
+		{022B92B3-3355-4E3A-8311-96D56A27E107}.Debug|x64.Build.0 = Debug|x64
+		{022B92B3-3355-4E3A-8311-96D56A27E107}.Debug|x86.ActiveCfg = Debug|Win32
+		{022B92B3-3355-4E3A-8311-96D56A27E107}.Debug|x86.Build.0 = Debug|Win32
+		{022B92B3-3355-4E3A-8311-96D56A27E107}.Release|x64.ActiveCfg = Release|x64
+		{022B92B3-3355-4E3A-8311-96D56A27E107}.Release|x64.Build.0 = Release|x64
+		{022B92B3-3355-4E3A-8311-96D56A27E107}.Release|x86.ActiveCfg = Release|Win32
+		{022B92B3-3355-4E3A-8311-96D56A27E107}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
