@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.2 구조체의 기본적
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.3 구조체의 메모리 할당", "14.3 구조체의 메모리 할당\14.3 구조체의 메모리 할당.vcxproj", "{EE620E94-CA0D-450F-B8BA-50E78743366D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.4 구조체의 배열 연습문제", "14.4 구조체의 배열 연습문제\14.4 구조체의 배열 연습문제.vcxproj", "{7416C676-33EF-4ED5-B04D-706E181E998E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.4 구조체의 배열 연습문제(2)", "14.4 구조체의 배열 연습문제(2)\14.4 구조체의 배열 연습문제(2).vcxproj", "{EA249119-4082-487E-A506-692E09E0EBCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +75,22 @@ Global
 		{EE620E94-CA0D-450F-B8BA-50E78743366D}.Release|x64.Build.0 = Release|x64
 		{EE620E94-CA0D-450F-B8BA-50E78743366D}.Release|x86.ActiveCfg = Release|Win32
 		{EE620E94-CA0D-450F-B8BA-50E78743366D}.Release|x86.Build.0 = Release|Win32
+		{7416C676-33EF-4ED5-B04D-706E181E998E}.Debug|x64.ActiveCfg = Debug|x64
+		{7416C676-33EF-4ED5-B04D-706E181E998E}.Debug|x64.Build.0 = Debug|x64
+		{7416C676-33EF-4ED5-B04D-706E181E998E}.Debug|x86.ActiveCfg = Debug|Win32
+		{7416C676-33EF-4ED5-B04D-706E181E998E}.Debug|x86.Build.0 = Debug|Win32
+		{7416C676-33EF-4ED5-B04D-706E181E998E}.Release|x64.ActiveCfg = Release|x64
+		{7416C676-33EF-4ED5-B04D-706E181E998E}.Release|x64.Build.0 = Release|x64
+		{7416C676-33EF-4ED5-B04D-706E181E998E}.Release|x86.ActiveCfg = Release|Win32
+		{7416C676-33EF-4ED5-B04D-706E181E998E}.Release|x86.Build.0 = Release|Win32
+		{EA249119-4082-487E-A506-692E09E0EBCB}.Debug|x64.ActiveCfg = Debug|x64
+		{EA249119-4082-487E-A506-692E09E0EBCB}.Debug|x64.Build.0 = Debug|x64
+		{EA249119-4082-487E-A506-692E09E0EBCB}.Debug|x86.ActiveCfg = Debug|Win32
+		{EA249119-4082-487E-A506-692E09E0EBCB}.Debug|x86.Build.0 = Debug|Win32
+		{EA249119-4082-487E-A506-692E09E0EBCB}.Release|x64.ActiveCfg = Release|x64
+		{EA249119-4082-487E-A506-692E09E0EBCB}.Release|x64.Build.0 = Release|x64
+		{EA249119-4082-487E-A506-692E09E0EBCB}.Release|x86.ActiveCfg = Release|Win32
+		{EA249119-4082-487E-A506-692E09E0EBCB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
