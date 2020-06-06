@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.9 구조체와 할당 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.10 복합 리터럴", "14.10 복합 리터럴\14.10 복합 리터럴.vcxproj", "{022B92B3-3355-4E3A-8311-96D56A27E107}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.12 익명 구조체", "14.12 익명 구조체\14.12 익명 구조체.vcxproj", "{DDD93457-977F-4F91-959B-ED839C42783C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{022B92B3-3355-4E3A-8311-96D56A27E107}.Release|x64.Build.0 = Release|x64
 		{022B92B3-3355-4E3A-8311-96D56A27E107}.Release|x86.ActiveCfg = Release|Win32
 		{022B92B3-3355-4E3A-8311-96D56A27E107}.Release|x86.Build.0 = Release|Win32
+		{DDD93457-977F-4F91-959B-ED839C42783C}.Debug|x64.ActiveCfg = Debug|x64
+		{DDD93457-977F-4F91-959B-ED839C42783C}.Debug|x64.Build.0 = Debug|x64
+		{DDD93457-977F-4F91-959B-ED839C42783C}.Debug|x86.ActiveCfg = Debug|Win32
+		{DDD93457-977F-4F91-959B-ED839C42783C}.Debug|x86.Build.0 = Debug|Win32
+		{DDD93457-977F-4F91-959B-ED839C42783C}.Release|x64.ActiveCfg = Release|x64
+		{DDD93457-977F-4F91-959B-ED839C42783C}.Release|x64.Build.0 = Release|x64
+		{DDD93457-977F-4F91-959B-ED839C42783C}.Release|x86.ActiveCfg = Release|Win32
+		{DDD93457-977F-4F91-959B-ED839C42783C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
