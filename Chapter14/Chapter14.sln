@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.23 자료형에게 별�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.24 복잡한 선언을 해석하는 요령", "14.24 복잡한 선언을 해석하는 요령\14.24 복잡한 선언을 해석하는 요령.vcxproj", "{C664F86A-A7D2-414A-BCF4-387028499B09}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.2 구조체의 기본적인 사용법", "14.2 구조체의 기본적인 사용법\14.2 구조체의 기본적인 사용법.vcxproj", "{C9F71A0F-E26E-480B-9821-653C92AA464B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.3 구조체의 메모리 할당", "14.3 구조체의 메모리 할당\14.3 구조체의 메모리 할당.vcxproj", "{EE620E94-CA0D-450F-B8BA-50E78743366D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +55,22 @@ Global
 		{C664F86A-A7D2-414A-BCF4-387028499B09}.Release|x64.Build.0 = Release|x64
 		{C664F86A-A7D2-414A-BCF4-387028499B09}.Release|x86.ActiveCfg = Release|Win32
 		{C664F86A-A7D2-414A-BCF4-387028499B09}.Release|x86.Build.0 = Release|Win32
+		{C9F71A0F-E26E-480B-9821-653C92AA464B}.Debug|x64.ActiveCfg = Debug|x64
+		{C9F71A0F-E26E-480B-9821-653C92AA464B}.Debug|x64.Build.0 = Debug|x64
+		{C9F71A0F-E26E-480B-9821-653C92AA464B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9F71A0F-E26E-480B-9821-653C92AA464B}.Debug|x86.Build.0 = Debug|Win32
+		{C9F71A0F-E26E-480B-9821-653C92AA464B}.Release|x64.ActiveCfg = Release|x64
+		{C9F71A0F-E26E-480B-9821-653C92AA464B}.Release|x64.Build.0 = Release|x64
+		{C9F71A0F-E26E-480B-9821-653C92AA464B}.Release|x86.ActiveCfg = Release|Win32
+		{C9F71A0F-E26E-480B-9821-653C92AA464B}.Release|x86.Build.0 = Release|Win32
+		{EE620E94-CA0D-450F-B8BA-50E78743366D}.Debug|x64.ActiveCfg = Debug|x64
+		{EE620E94-CA0D-450F-B8BA-50E78743366D}.Debug|x64.Build.0 = Debug|x64
+		{EE620E94-CA0D-450F-B8BA-50E78743366D}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE620E94-CA0D-450F-B8BA-50E78743366D}.Debug|x86.Build.0 = Debug|Win32
+		{EE620E94-CA0D-450F-B8BA-50E78743366D}.Release|x64.ActiveCfg = Release|x64
+		{EE620E94-CA0D-450F-B8BA-50E78743366D}.Release|x64.Build.0 = Release|x64
+		{EE620E94-CA0D-450F-B8BA-50E78743366D}.Release|x86.ActiveCfg = Release|Win32
+		{EE620E94-CA0D-450F-B8BA-50E78743366D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
