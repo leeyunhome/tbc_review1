@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_ConditionalCompilelation
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_ConditionalCompilelation_B_Headerguards", "07_ConditionalCompilelation_B_Headerguards\07_ConditionalCompilelation_B_Headerguards.vcxproj", "{9BA22EFC-529E-4CDE-82E0-BEF6C7380B1D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_ConditionalCompilelation_C", "07_ConditionalCompilelation_C\07_ConditionalCompilelation_C.vcxproj", "{7C69A623-E296-4B85-93CE-2392F685693F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{9BA22EFC-529E-4CDE-82E0-BEF6C7380B1D}.Release|x64.Build.0 = Release|x64
 		{9BA22EFC-529E-4CDE-82E0-BEF6C7380B1D}.Release|x86.ActiveCfg = Release|Win32
 		{9BA22EFC-529E-4CDE-82E0-BEF6C7380B1D}.Release|x86.Build.0 = Release|Win32
+		{7C69A623-E296-4B85-93CE-2392F685693F}.Debug|x64.ActiveCfg = Debug|x64
+		{7C69A623-E296-4B85-93CE-2392F685693F}.Debug|x64.Build.0 = Debug|x64
+		{7C69A623-E296-4B85-93CE-2392F685693F}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C69A623-E296-4B85-93CE-2392F685693F}.Debug|x86.Build.0 = Debug|Win32
+		{7C69A623-E296-4B85-93CE-2392F685693F}.Release|x64.ActiveCfg = Release|x64
+		{7C69A623-E296-4B85-93CE-2392F685693F}.Release|x64.Build.0 = Release|x64
+		{7C69A623-E296-4B85-93CE-2392F685693F}.Release|x86.ActiveCfg = Release|Win32
+		{7C69A623-E296-4B85-93CE-2392F685693F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
